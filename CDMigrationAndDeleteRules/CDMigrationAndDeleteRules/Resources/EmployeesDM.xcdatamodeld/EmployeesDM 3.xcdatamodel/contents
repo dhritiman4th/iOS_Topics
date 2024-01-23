@@ -4,7 +4,7 @@
         <attribute name="cardNo" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="type" attributeType="String"/>
-        <relationship name="cardToEmployee" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Employees" inverseName="employeeToCard" inverseEntity="Employees"/>
+        <relationship name="cardToEmployee" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Employees" inverseName="employeeToCard" inverseEntity="Employees"/>
     </entity>
     <entity name="Employees" representedClassName=".Employees" syncable="YES">
         <attribute name="age" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
@@ -13,6 +13,6 @@
         <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="name" attributeType="String"/>
         <attribute name="sex" attributeType="String"/>
-        <relationship name="employeeToCard" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Cards" inverseName="cardToEmployee" inverseEntity="Cards"/>
+        <relationship name="employeeToCard" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Cards" inverseName="cardToEmployee" inverseEntity="Cards"/>
     </entity>
 </model>

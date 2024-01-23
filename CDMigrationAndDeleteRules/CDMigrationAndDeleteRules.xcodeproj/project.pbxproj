@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C7BCF252B5F757D0030647F /* Employees+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BCF212B5F757D0030647F /* Employees+CoreDataClass.swift */; };
-		8C7BCF262B5F757D0030647F /* Employees+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BCF222B5F757D0030647F /* Employees+CoreDataProperties.swift */; };
-		8C7BCF272B5F757D0030647F /* Cards+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BCF232B5F757D0030647F /* Cards+CoreDataClass.swift */; };
-		8C7BCF282B5F757D0030647F /* Cards+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BCF242B5F757D0030647F /* Cards+CoreDataProperties.swift */; };
+		8C7BCF2D2B5F7EE70030647F /* Cards+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BCF292B5F7EE70030647F /* Cards+CoreDataClass.swift */; };
+		8C7BCF2E2B5F7EE70030647F /* Cards+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BCF2A2B5F7EE70030647F /* Cards+CoreDataProperties.swift */; };
+		8C7BCF2F2B5F7EE70030647F /* Employees+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BCF2B2B5F7EE70030647F /* Employees+CoreDataClass.swift */; };
+		8C7BCF302B5F7EE70030647F /* Employees+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BCF2C2B5F7EE70030647F /* Employees+CoreDataProperties.swift */; };
 		8C85AFE92B5F652000049FD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85AFE82B5F652000049FD9 /* AppDelegate.swift */; };
 		8C85AFEB2B5F652000049FD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85AFEA2B5F652000049FD9 /* SceneDelegate.swift */; };
 		8C85AFF02B5F652000049FD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C85AFEE2B5F652000049FD9 /* Main.storyboard */; };
@@ -32,10 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C7BCF212B5F757D0030647F /* Employees+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employees+CoreDataClass.swift"; sourceTree = "<group>"; };
-		8C7BCF222B5F757D0030647F /* Employees+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employees+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		8C7BCF232B5F757D0030647F /* Cards+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cards+CoreDataClass.swift"; sourceTree = "<group>"; };
-		8C7BCF242B5F757D0030647F /* Cards+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cards+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8C7BCF292B5F7EE70030647F /* Cards+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cards+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8C7BCF2A2B5F7EE70030647F /* Cards+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cards+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8C7BCF2B2B5F7EE70030647F /* Employees+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employees+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8C7BCF2C2B5F7EE70030647F /* Employees+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employees+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8C85AFE52B5F652000049FD9 /* CDMigrationAndDeleteRules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDMigrationAndDeleteRules.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C85AFE82B5F652000049FD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C85AFEA2B5F652000049FD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -166,10 +166,10 @@
 		8C85B0022B5F658D00049FD9 /* NSManagedObjectSubclass */ = {
 			isa = PBXGroup;
 			children = (
-				8C7BCF212B5F757D0030647F /* Employees+CoreDataClass.swift */,
-				8C7BCF222B5F757D0030647F /* Employees+CoreDataProperties.swift */,
-				8C7BCF232B5F757D0030647F /* Cards+CoreDataClass.swift */,
-				8C7BCF242B5F757D0030647F /* Cards+CoreDataProperties.swift */,
+				8C7BCF292B5F7EE70030647F /* Cards+CoreDataClass.swift */,
+				8C7BCF2A2B5F7EE70030647F /* Cards+CoreDataProperties.swift */,
+				8C7BCF2B2B5F7EE70030647F /* Employees+CoreDataClass.swift */,
+				8C7BCF2C2B5F7EE70030647F /* Employees+CoreDataProperties.swift */,
 			);
 			path = NSManagedObjectSubclass;
 			sourceTree = "<group>";
@@ -335,22 +335,22 @@
 				8C85B00E2B5F659C00049FD9 /* Constant.swift in Sources */,
 				8C85B0222B5F65C400049FD9 /* UserViewModel.swift in Sources */,
 				8C85B0252B5F65C400049FD9 /* UserDetailsController.swift in Sources */,
-				8C7BCF272B5F757D0030647F /* Cards+CoreDataClass.swift in Sources */,
-				8C7BCF282B5F757D0030647F /* Cards+CoreDataProperties.swift in Sources */,
+				8C7BCF2F2B5F7EE70030647F /* Employees+CoreDataClass.swift in Sources */,
 				8C85B0282B5F65C400049FD9 /* CardModel.swift in Sources */,
 				8C85AFE92B5F652000049FD9 /* AppDelegate.swift in Sources */,
+				8C7BCF2D2B5F7EE70030647F /* Cards+CoreDataClass.swift in Sources */,
 				8C85B02F2B5F667900049FD9 /* EmployeesDM.xcdatamodeld in Sources */,
 				8C85B0262B5F65C400049FD9 /* CreditCardListController.swift in Sources */,
 				8C85B0242B5F65C400049FD9 /* UserListController.swift in Sources */,
 				8C85B02B2B5F65C400049FD9 /* CreditCardCell.swift in Sources */,
 				8C85B00C2B5F658D00049FD9 /* PersistantStorage.swift in Sources */,
+				8C7BCF302B5F7EE70030647F /* Employees+CoreDataProperties.swift in Sources */,
 				8C85B0292B5F65C400049FD9 /* CreditCardDetailsViewModel.swift in Sources */,
+				8C7BCF2E2B5F7EE70030647F /* Cards+CoreDataProperties.swift in Sources */,
 				8C85B0272B5F65C400049FD9 /* UserDataCell.swift in Sources */,
-				8C7BCF262B5F757D0030647F /* Employees+CoreDataProperties.swift in Sources */,
 				8C85B02A2B5F65C400049FD9 /* CreditCardDetailsController.swift in Sources */,
 				8C85AFEB2B5F652000049FD9 /* SceneDelegate.swift in Sources */,
 				8C85B0232B5F65C400049FD9 /* UserModel.swift in Sources */,
-				8C7BCF252B5F757D0030647F /* Employees+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
