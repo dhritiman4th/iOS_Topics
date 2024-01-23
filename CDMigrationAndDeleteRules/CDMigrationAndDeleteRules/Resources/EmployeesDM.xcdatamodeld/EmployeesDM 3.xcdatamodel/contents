@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C71" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Cards" representedClassName=".Cards" syncable="YES">
+        <attribute name="cardNo" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="type" attributeType="String"/>
+        <relationship name="cardToEmployee" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Employees" inverseName="employeeToCard" inverseEntity="Employees"/>
+    </entity>
+    <entity name="Employees" representedClassName=".Employees" syncable="YES">
+        <attribute name="age" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="country" attributeType="String"/>
+        <attribute name="department" attributeType="String"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="sex" attributeType="String"/>
+        <relationship name="employeeToCard" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Cards" inverseName="cardToEmployee" inverseEntity="Cards"/>
+    </entity>
+</model>
