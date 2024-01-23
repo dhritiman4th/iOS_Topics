@@ -4,7 +4,7 @@
         <attribute name="cardNo" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="type" attributeType="String"/>
-        <relationship name="cardToEmployee" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Employees" inverseName="employeeToCard" inverseEntity="Employees"/>
+        <relationship name="cardToEmployee" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Employees" inverseName="employeeToCard" inverseEntity="Employees"/>
     </entity>
     <entity name="Employees" representedClassName=".Employees" syncable="YES">
         <attribute name="age" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
